@@ -1,5 +1,5 @@
 Form login
 <hr>
-technologys: html and css
+technologys: Html and Css
 <hr>
 description: Responsive login template form made with just html and css.
