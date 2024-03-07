@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="Pt-Br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Form Login</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="box-content">
+      <form class="login-form" action="#">
+        <h1>Login</h1>
+        <div class="form-content-input">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email"
+            required
+          />
+        </div>
+
+        <div class="form-content-input">
+          <label for="Password">Password</label>
+          <input
+            type="password"
+            name="email"
+            id="email"
+            placeholder="Your password"
+            required
+          />
+          <p class="text-right"><a href="#">Forgot Password?</a></p>
+        </div>
+
+        <div class="form-content-input">
+          <button>Login</button>
+        </div>
+
+        <div class="form-content-input text-center">
+          <h2>sign Up using</h2>
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="assets/images/facebook-icon.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="assets/images/Google-icon.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="assets/images/twitter-icon.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="form-content-input text-center">
+          <h2>Or sign Up using</h2>
+          <p><a href="#">Sign Up</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
